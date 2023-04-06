@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.eksamen_2020_aoppgave3.HelloController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="58.0" layoutY="75.0" mnemonicParsing="false" onAction="#nyOppgave" text="NY OPPGAVE" />
+      <Button layoutX="456.0" layoutY="83.0" mnemonicParsing="false" onAction="#svar" text="SVAR" />
+      <Button layoutX="41.0" layoutY="315.0" mnemonicParsing="false" onAction="#nullstill" text="NULLSTILL" />
+      <Label fx:id="lblOppgave" layoutX="166.0" layoutY="79.0" prefHeight="17.0" prefWidth="133.0" />
+      <Label fx:id="lblResultat" layoutX="166.0" layoutY="127.0" prefHeight="17.0" prefWidth="133.0" />
+      <Label fx:id="lblAntallRett" layoutX="145.0" layoutY="258.0" prefHeight="17.0" prefWidth="120.0" />
+      <Label fx:id="lblAntallFeil" layoutX="145.0" layoutY="297.0" prefHeight="17.0" prefWidth="120.0" />
+      <Label fx:id="lblRettProsent" layoutX="329.0" layoutY="258.0" />
+      <Label fx:id="lblFeilProsent" layoutX="329.0" layoutY="297.0" />
+      <TextField fx:id="txtSvar" layoutX="300.0" layoutY="83.0" />
+   </children>
+</AnchorPane>

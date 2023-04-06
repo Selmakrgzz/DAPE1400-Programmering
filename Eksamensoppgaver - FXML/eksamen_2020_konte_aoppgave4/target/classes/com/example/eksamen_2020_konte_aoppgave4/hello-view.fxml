@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.eksamen_2020_konte_aoppgave4.HelloController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="79.0" layoutY="38.0" text="DATO" />
+      <Label layoutX="79.0" layoutY="90.0" text="TEMP I C" />
+      <Label layoutX="79.0" layoutY="137.0" text="NEDBØR I MM" />
+      <TextField fx:id="txtDato" layoutX="158.0" layoutY="34.0" />
+      <TextField fx:id="txtTemp" layoutX="167.0" layoutY="86.0" />
+      <TextField fx:id="txtRegn" layoutX="185.0" layoutY="133.0" />
+      <Button layoutX="440.0" layoutY="133.0" mnemonicParsing="false" onAction="#btnRegistrerVær" text="Registrer vær" />
+      <Button layoutX="43.0" layoutY="215.0" mnemonicParsing="false" onAction="#btnSnittRegn" text="SNITT REGN" />
+      <Button layoutX="241.0" layoutY="215.0" mnemonicParsing="false" onAction="#btnSnittTemperatur" text="SNITT TEMP" />
+      <Button layoutX="32.0" layoutY="349.0" mnemonicParsing="false" onAction="#btnSlettRegister" text="SLETT REGISTER" />
+      <Label fx:id="lblSnittRegn" layoutX="65.0" layoutY="269.0" />
+      <Label fx:id="lblSnittTemp" layoutX="267.0" layoutY="278.0" />
+   </children>
+</AnchorPane>
