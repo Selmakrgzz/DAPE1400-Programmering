@@ -1,0 +1,42 @@
+String navnOgAdresse = "Per n/ Vollebekk 1";
+// (n/) legger en linje imellom
+
+//print() gir ikke linje, mens println() gir linje etter variablene
+
+String forOgEtternavn = "Per Hansen";
+String for_Etternavn = "Per Hansen";
+//forskjell på store og små bokstaver
+
+String navn, adresse, telefonnr;
+navn = "Ole Olsen";
+adresse = "Askerveien 82";
+telefonnr = "12345678";
+String ut = navn +" "+ adresse +" "+ telefonnr;
+System.out.println(ut);
+//Setter sammen strenger. Kan ha mellomrom etter variabler,
+//og skrive ...+...+ istedet for ""+""+
+
+String navn, adresse, telefonnr;
+navn = "Ole Olsen";
+adresse = "Askerveien 82";
+telefonnr = "12345678";
+String ut = navn +"/n"+ adresse +"/n"+ telefonnr;
+System.out.println(ut);
+//Vil få variablene under hverandre med /n
+
+showMessageDialog = "Velkommen Per Hansen";
+
+//System.out.println(heisann); //Blir kommentert ut
+System.out.println(ok kult);
+System.out.println(hade);
+
+System.out.println(heisann); 
+/*System.out.println(ok kult); //Blir kommentert ut
+System.out.println(hade);*/    //Blir kommentert ut
+
+
+
+
+
+
+
