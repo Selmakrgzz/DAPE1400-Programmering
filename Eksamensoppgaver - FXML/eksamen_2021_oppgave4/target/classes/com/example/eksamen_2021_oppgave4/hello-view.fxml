@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.eksamen_2021_oppgave4.HelloController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="90.0" layoutY="78.0" text="Temperatur i C" />
+      <Label fx:id="lblResultat" layoutX="35.0" layoutY="264.0" prefHeight="114.0" prefWidth="348.0" />
+      <Button layoutX="64.0" layoutY="209.0" mnemonicParsing="false" onAction="#registrer" text="Registrer" />
+      <Button layoutX="430.0" layoutY="209.0" mnemonicParsing="false" onAction="#nullstill" text="Nullstill" />
+      <TextField fx:id="txtTemperatur" layoutX="64.0" layoutY="133.0" />
+   </children>
+</AnchorPane>

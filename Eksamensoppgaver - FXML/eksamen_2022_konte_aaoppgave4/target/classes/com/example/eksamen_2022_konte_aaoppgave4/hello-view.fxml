@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eksamen_2022_konte_aaoppgave4.HelloController">
+   <children>
+      <RadioButton layoutX="168.0" layoutY="46.0" mnemonicParsing="false" text="mann">
+         <toggleGroup>
+            <ToggleGroup fx:id="Kjonn" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="168.0" layoutY="82.0" mnemonicParsing="false" text="kvinne" toggleGroup="$Kjonn" />
+      <Label layoutX="59.0" layoutY="142.0" text="alder" />
+      <Label layoutX="59.0" layoutY="183.0" text="vekt" />
+      <Label layoutX="59.0" layoutY="220.0" text="høyde" />
+      <Label fx:id="lblResultat" layoutX="59.0" layoutY="327.0" prefHeight="17.0" prefWidth="266.0" />
+      <TextField fx:id="txtAlder" layoutX="151.0" layoutY="138.0" />
+      <TextField fx:id="txtVekt" layoutX="151.0" layoutY="179.0" />
+      <TextField fx:id="txtHoyde" layoutX="151.0" layoutY="216.0" />
+      <Button layoutX="151.0" layoutY="266.0" mnemonicParsing="false" onAction="#btnBeregn" text="beregn" />
+   </children>
+</AnchorPane>

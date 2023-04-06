@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.eksamen_2021_konte_oppgave4.HelloController">
+   <children>
+      <Label layoutX="131.0" layoutY="122.0" text="Temperatur" />
+      <Label layoutX="88.0" layoutY="251.0" text="Min" />
+      <Label layoutX="212.0" layoutY="251.0" text="Maks" />
+      <Label layoutX="347.0" layoutY="251.0" text="Gjennomsnitt" />
+      <TextField fx:id="txtTemperatur" layoutX="240.0" layoutY="118.0" />
+      <Button layoutX="456.0" layoutY="118.0" mnemonicParsing="false" onAction="#registrer" text="Register" />
+      <Label fx:id="lblFeil" layoutX="442.0" layoutY="183.0" />
+      <Label fx:id="lblMin" layoutX="74.0" layoutY="312.0" />
+      <Label fx:id="lblMaks" layoutX="212.0" layoutY="304.0" />
+      <Label fx:id="lblGjennomsnitt" layoutX="375.0" layoutY="304.0" />
+      <Button layoutX="505.0" layoutY="340.0" mnemonicParsing="false" onAction="#nullstill" text="Nullstill" />
+   </children>
+</AnchorPane>
