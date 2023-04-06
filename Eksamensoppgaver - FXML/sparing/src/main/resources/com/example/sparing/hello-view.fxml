@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.sparing.HelloController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="54.0" layoutY="107.0" prefHeight="17.0" prefWidth="87.0" text="Engangsbeløp" />
+      <Label layoutX="68.0" layoutY="164.0" prefHeight="17.0" prefWidth="87.0" text="Sparerente (%)" />
+      <Label layoutX="100.0" layoutY="218.0" text="Antall år" />
+      <Label fx:id="lblResultat" layoutX="128.0" layoutY="295.0" prefHeight="59.0" prefWidth="272.0" />
+      <TextField fx:id="txtBeløp" layoutX="169.0" layoutY="103.0" />
+      <TextField fx:id="txtRente" layoutX="169.0" layoutY="160.0" />
+      <TextField fx:id="txtAntallÅr" layoutX="169.0" layoutY="214.0" />
+      <Button layoutX="212.0" layoutY="270.0" mnemonicParsing="false" onAction="#Beregn" text="Beregn Sparing" />
+   </children>
+</AnchorPane>
