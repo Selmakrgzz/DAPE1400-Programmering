@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.eksamen_2019_konte_aoppgave4.HelloController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="86.0" layoutY="97.0" text="Navn" />
+      <Label layoutX="86.0" layoutY="139.0" text="Fødselsår" />
+      <Label layoutX="86.0" layoutY="182.0" text="Høyde i m" />
+      <Label layoutX="86.0" layoutY="223.0" text="Vekt i kg" />
+      <TextField fx:id="txtNavn" layoutX="185.0" layoutY="93.0" />
+      <TextField fx:id="txtFødt" layoutX="185.0" layoutY="135.0" />
+      <TextField fx:id="txtHøyde" layoutX="185.0" layoutY="178.0" />
+      <TextField fx:id="txtVekt" layoutX="185.0" layoutY="219.0" />
+      <Label fx:id="lblResultat" layoutX="86.0" layoutY="315.0" prefHeight="65.0" prefWidth="313.0" />
+      <Button layoutX="74.0" layoutY="255.0" mnemonicParsing="false" onAction="#beregn" text="Beregn" />
+   </children>
+</AnchorPane>

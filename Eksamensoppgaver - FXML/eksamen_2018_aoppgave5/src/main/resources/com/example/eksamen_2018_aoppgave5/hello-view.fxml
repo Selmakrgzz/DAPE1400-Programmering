@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.eksamen_2018_aoppgave5.HelloController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtNavn" layoutX="76.0" layoutY="99.0" />
+      <TextField fx:id="txtTelefonnr" layoutX="324.0" layoutY="99.0" />
+      <Button layoutX="76.0" layoutY="200.0" mnemonicParsing="false" onAction="#regLoddsalg" text="Registrer loddsalg" />
+      <Button layoutX="225.0" layoutY="200.0" mnemonicParsing="false" onAction="#foretaTrekning" text="Foreta trekning" />
+      <Button layoutX="372.0" layoutY="200.0" mnemonicParsing="false" onAction="#nyttLotteri" text="Nytt lotteri" />
+      <Label fx:id="lblResultater" layoutX="151.0" layoutY="302.0" prefHeight="17.0" prefWidth="269.0" />
+      <Label layoutX="102.0" layoutY="73.0" text="Navn" />
+      <Label layoutX="344.0" layoutY="73.0" text="Telefonnnr" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" fx:controller="com.example.eksamen_2019_oppgave4.HelloController" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="100.0" layoutY="100.0" text="Antall" />
+      <Label layoutX="100.0" layoutY="165.0" text="Antall soner" />
+      <Label fx:id="lblResultat" layoutX="122.0" layoutY="336.0" prefHeight="17.0" prefWidth="239.0" />
+      <TextField fx:id="txtAntall" layoutX="181.0" layoutY="96.0" />
+      <TextField fx:id="txtSoner" layoutX="181.0" layoutY="161.0" />
+      <CheckBox fx:id="chkRabatt" layoutX="123.0" layoutY="221.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="197.0" text="Rabatt(barn, student, honør)" />
+      <Button layoutX="102.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnberegn" text="beregn" />
+      <Label fx:id="lblFeilAntall" layoutX="423.0" layoutY="109.0" />
+      <Label fx:id="lblFeilSoner" layoutX="423.0" layoutY="165.0" />
+   </children>
+</AnchorPane>
